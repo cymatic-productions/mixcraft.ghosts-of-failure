@@ -6,7 +6,13 @@
 # Tips for Development
 
 ## External MIDI Controls
-* View [this video](https://www.youtube.com/watch?v=GG81OfTMigQ)
+* View [this video](https://www.youtube.com/watch?v=GG81OfTMigQ) for general configuration
+* View [this video](https://www.youtube.com/watch?v=AKKTIcYH8WU) for how to set samples for individual keys
+  * TLDW/TLDR: `Virtual Instrument Track > Category: VSTi Instruments > OmniSampler`
+* **Note:**
+  * *Using MIDI controls will inherently create a delay between stroke and playback sound.*
+  * *Reduce delay, by setting `Sound Device` preferences to `Exclusive Mode` and set `Latency` to lowest possible value.*
+
 
 ## Converting `.mp3` to `.midi`
 * The `plugins/NeuralNote.exe` application can be used to convert `.mp3` to `.midi` files.
